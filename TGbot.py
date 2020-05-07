@@ -18,7 +18,7 @@ def send_text(message):
         bot.send_message(message.chat.id, 'ok')
     elif message.text.lower() == '0к':
         bot.send_message(message.chat.id, 'ok')
-    elif message.text.lower() == 'ivan':
+    elif message.text.lower() == 'иван':
         bot.send_message(message.chat.id, 'Воробьев')
     elif message.text.lower() == 'Ваня':
         bot.send_message(message.chat.id, 'Воробьев')
