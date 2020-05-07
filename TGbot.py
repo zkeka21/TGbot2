@@ -18,16 +18,16 @@ def send_text(message):
         bot.send_message(message.chat.id, 'ok')
     elif message.text.lower() == '0к':
         bot.send_message(message.chat.id, 'ok')
+    elif message.text.lower() == 'вань':
+        bot.send_message(message.chat.id, 'Воробьев')
+    elif message.text.lower() == 'ваня':
+        bot.send_message(message.chat.id, 'Воробьев')
     elif message.text.lower() == 'иван':
         bot.send_message(message.chat.id, 'Воробьев')
-    elif message.text.lower() == 'Ваня':
-        bot.send_message(message.chat.id, 'Воробьев')
-    elif message.text.lower() == 'Иван':
-        bot.send_message(message.chat.id, 'Воробьев')
-    elif message.text.lower() == 'Эмиль':
+    elif message.text.lower() == 'эмиль':
         bot.send_message(message.chat.id, 'Харасов')
-    elif message.text.lower() == 'Эмль':
+    elif message.text.lower() == 'эмль':
         bot.send_message(message.chat.id, 'Харасов')
-    elif message.text.lower() == 'Евгений':
+    elif message.text.lower() == 'евгений':
         bot.send_message(message.chat.id, 'Просто Жека')
 bot.polling()
