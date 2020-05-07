@@ -4,7 +4,7 @@ bot = telebot.TeleBot('1250764561:AAH04Jx6rh5OFYcLofdLN9ne52QRdm6RafA')
 
 @bot.message_handler(content_types=['text'])
 def send_text(message):
-    if message.text.lower() == 'Вань':
+    if message.text.lower() == 'В':
         bot.send_message(message.chat.id, 'Воробьев')
     elif message.text.lower() == 'Ваня':
         bot.send_message(message.chat.id, 'Воробьев')
