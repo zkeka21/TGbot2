@@ -30,4 +30,8 @@ def send_text(message):
         bot.send_message(message.chat.id, 'Харасов')
     elif message.text.lower() == 'евгений':
         bot.send_message(message.chat.id, 'Просто Жека')
+    elif message.text.lower() == 'понял':
+        bot.send_message(message.chat.id, 'подтверждаю.')
+    elif message.text.lower() == 'понел':
+        bot.send_message(message.chat.id, 'подтверждаю.')
 bot.polling()
